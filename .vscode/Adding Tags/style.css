@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Bree+Serif&family=Neonderthaw&family=Roboto+Slab:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #5372F0;
+}
+.wrapper{
+    background-color: white;
+    padding: 25px 30px;
+    border-radius: 15px;
+    width: 490px;
+}
+.wrapper .title h2{
+    font-size: 21px;
+    font-weight: 600;
+}
+.wrapper :where(.title, li, li i, .details){
+    display: flex;
+    align-items: center;
+
+}
+.wrapper .title i{
+    max-width: 21px;
+}
+.wrapper .title h2{
+    font-size: 21px;
+    font-weight: 600;
+    margin-left: 8px;
+}
+.wrapper .content{
+    margin: 10px 0;
+
+}
+.content p{
+    font-size: 15px;
+}
+.content ul{
+    display: flex;
+    border: 1px solid #a6a6a6;
+    padding: 7px;
+    border-radius: 5px;
+    margin: 12px 0;
+    flex-wrap: wrap;
+}
+.content ul li{
+    list-style: none;
+    background: #f2f2f2;
+    margin: 4px 3px;
+    padding: 5px 8px 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #e3d1e1;
+}
+.content ul li i{
+    background: #dfdfdf;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 8px;
+    justify-content: center;
+    font-size: 12px;
+}
+.content ul input{
+    flex:1;
+    outline: none;
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+}
+.wrapper .details{
+    justify-content: space-between;
+}
+.details button{
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #5372f0;
+    padding: 9px 15px;
+    border-radius: 5px;
+}
