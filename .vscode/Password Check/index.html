@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Check</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Confirm Password Check in HTML CSS & JavaScript</h1>
+        <div class="error-text">
+            <p class="error">Error! Confirm Password Not Match</p>
+            <p class="correct">Nice! Confirm Password Matched</p>
+            <i class="fa fa-times cross"></i>
+        </div>
+        <div class="inputs">
+            <input onkeyup="active()" type="password" name="" id="pass" class="input" placeholder="Enter Password">
+            <input type="password" name="" id="con" class="input" placeholder="Confirm Password" disabled>
+            <span class="show">SHOW</span>
+        </div>
+        <div class="btn">
+            <button type="button" disabled>CHECK</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
