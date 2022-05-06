@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Bree+Serif&family=Neonderthaw&family=Roboto+Slab:wght@600&display=swap');
+
+*{
+    /* margin: 0; */
+    /* padding: 0; */
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+}
+body{
+    background: #dedede;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.click{
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgb(152, 152, 213);
+}
+.pop_box{
+    background-color: white;
+    padding: 15px 20px;
+    width: 499px;
+    border-radius: 5px;
+    display: none;
+    /* opacity: 0; */
+}
+.pop_box i{
+    font-size: 30px;
+    border: 2px solid;
+    padding: 15px 15px;
+    border-radius: 50%;
+    color: orange;
+}
+.pop_box h1{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 10px;
+}
+.pop_box p{
+    margin-bottom: 35px;
+}
+.pop_box .btns{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.pop_box .btns .btn{
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.pop_box .btns .btn1{
+    background: gray;
+}
+.pop_box .btns .btn2{
+    background: red;
+}
+
